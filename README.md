@@ -3,8 +3,13 @@
 
 | Ticket ID      | Category                  | Issue/Request Description  |Resolution Summary | Key Technologies |
 | :--- | :--- | :--- | :--- | :--- |
-| **Ticket #1**     | Network Diagnostics  | User reports no internet or local network access  | Checks physical connection, refreshes the DHCP lease, flushes the local DNS cache, and verifies full internet and gateway connection      | `ipconfig`, `ping`, `nslookup`, `DHCP`, `DNS`                          |
-| Ticket #2     |  |
+| **TKT-001**     | Network Diagnostics  | User reports no internet or local network access  | Checks physical connection, check IP configuration, connectivity and DNS resolution     | Windows Command Prompt, IP configuration, Ping, DNS, DHCP   |
+| **TKT-002**     | Active Directory | New client requires a domain account  | Create a test user, assigns appropriate group membership and verify account properties | Active Directory, ADUC |
+| **TKT-003**     | File and Folder Permission Management | User cannot access a shared folder | Configure and check NTFS permissions for an AD security group | Windows Server, Active Directory, NTFS |
+| **TKT-004**     | Account Troubleshooting | User reports they cannot sign in to their domain account | Investigate account status and possible sign-in issues | Active Directory, Windows |
+| **TKT-005**     | Group Policy Management | User reports a required desktop setting is not being applied | Checked Group Policy configuration and application | GPMC, GPO, Active Directory |
+| **TKT-006**     | Windows Troubleshooting | User reports their computer is running slowly | Check system resource usage and running processes | Windows, Task Manager | 
+| **TKT-007**     | Event Log Investigation | User reports a recurring Windows error | Review Event Viewer for relevant errors | Event Viewer, Windows Logs, Windows Troubleshooting |
 
 
 ### Technical Verification: Ticket #1
@@ -35,3 +40,5 @@
 </p>
 
 <br><br>
+
+
