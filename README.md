@@ -1,15 +1,15 @@
 
 
 
-| Ticket ID      | Category                  | Issue/Request Description  |Resolution Summary | Key Technologies |
+| Ticket ID      | Category                  | Scenario/Task | Outcome | Tools & Skills |
 | :--- | :--- | :--- | :--- | :--- |
-| **TKT-001**     | Network Diagnostics  | User reports no internet or local network access  | Checks physical connection, check IP configuration, connectivity and DNS resolution     | Windows Command Prompt, IP configuration, Ping, DNS, DHCP   |
-| **TKT-002**     | Active Directory | New client requires a domain account  | Create a test user, assigns appropriate group membership and verify account properties | Active Directory, ADUC |
-| **TKT-003**     | File and Folder Permission Management | User cannot access a shared folder | Configure and check NTFS permissions for an AD security group | Windows Server, Active Directory, NTFS |
-| **TKT-004**     | Account Troubleshooting | User reports they cannot sign in to their domain account | Investigate account status and possible sign-in issues | Active Directory, Windows |
-| **TKT-005**     | Group Policy Management | User reports a required desktop setting is not being applied | Checked Group Policy configuration and application | GPMC, GPO, Active Directory |
-| **TKT-006**     | Windows Troubleshooting | User reports their computer is running slowly | Check system resource usage and running processes | Windows, Task Manager | 
-| **TKT-007**     | Event Log Investigation | User reports a recurring Windows error | Review Event Viewer for relevant errors | Event Viewer, Windows Logs, Windows Troubleshooting |
+| **TKT-001**     | Network Diagnostics  | Practise investigating network configuration and connectivity.  | Inspected IP configuration and practised network connectivity and DNS checks.   | Command Prompt, IP configuration, DNS, ping |
+| **TKT-002**     | Active Directory Administration| Create a test domain user and assign appropriate group membership. | Created a test user, assigned group membership and verified account properties. | Active Directory, user accounts, security groups |
+| **TKT-003**     | File and Folder Permissions | Configure access to a shared folder for an Active Directory security group. | Configured and checked NTFS permissions for the security group. |  Windows Server, NTFS permissions, shared folders |
+| **TKT-004**     | Account Troubleshooting | Practise investigating a domain account sign-in problem. | Inspected account status and relevant account settings. | Active Directory, account troubleshooting |
+| **TKT-005**     | Group Policy Management | Practise checking why a required desktop setting may not be applied. | Inspected Group Policy configuration and checked policy application where available. | Group Policy, GPMC, Windows administration |
+| **TKT-006**     | Windows Troubleshooting | Investigate Windows system performance using built-in tools. | Inspected resource usage and running processes in Task Manager. | Task Manager, process monitoring, performance checks | 
+| **TKT-007**     | Event Log Investigation | Practise investigating Windows events related to system errors. | Reviewed relevant entries in Event Viewer and examined event details. | Event Viewer, Windows Logs, error investigation |
 
 <br><br>
 ## TKT-001: Network Diagnostics
