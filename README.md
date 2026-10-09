@@ -43,8 +43,9 @@ Created a test domain user and configured its security group membership in Activ
 
 Configured NTFS permissions to grant an Active Directory security group appropriate access to a folder.
 
+![NTFS Permissions](/evidence/TKT-003-ntfs-permissions.png)
 
-
+![Folder Access Test](/evidence/TKT-003-access-test.png)
 
 
 
