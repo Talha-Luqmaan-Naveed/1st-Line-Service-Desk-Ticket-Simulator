@@ -31,7 +31,7 @@
 3. **Network Connectivity Testing**
    Used ping to test connectivity to the default gateway and an external IP address.
 
-![IP Lease Renewal and DNS Cache](evidence/TKT-001-connectivity-ping-test.png)
+![Network Connectivity](evidence/TKT-001-connectivity-ping-test.png)
 
 <br><br>
 
@@ -42,12 +42,21 @@ Investigation Steps
 1. **Create a Test Domain User**
 Opened Active Directory Users and Computers and created a test domain user in the appropriate organisational unit (OU).
 
+![Test User Creation](/evidence/TKT-002-user-creation.png)
 
 
 2. **Assign Security Group Membership**
 Added the test user to the appropriate security group and checked the group membership.
 
-
+![Security Group Membership](/evidence/TKT-002-group-membership.png)
 
 3. **Verify Account Properties**
 Reviewed the account properties to confirm the user account and group membership were configured as intended.
+
+![Account Verification](/evidence/TKT-002-account-verification.png)
+
+
+
+
+
+
