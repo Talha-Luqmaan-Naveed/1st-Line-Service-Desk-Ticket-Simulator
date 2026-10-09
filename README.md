@@ -11,8 +11,11 @@
 | **TKT-006**     | Windows Troubleshooting | User reports their computer is running slowly | Check system resource usage and running processes | Windows, Task Manager | 
 | **TKT-007**     | Event Log Investigation | User reports a recurring Windows error | Review Event Viewer for relevant errors | Event Viewer, Windows Logs, Windows Troubleshooting |
 
+<br><br>
+## TKT-001: Network Diagnostics
 
-### Technical Verification: Ticket #1
+### Investigation and Troubleshooting
+
 1. **Physical Link Check**
    Verify Ethernet cable is securely plugged in PC and the router. Confirm green/amber link lights illuminate on the network adapter.
 <br><br>
