@@ -14,22 +14,15 @@
 <br><br>
 ## TKT-001: Network Diagnostics
 
-1. **Initial Initial Network Configuration Check**
-   Used `ipconfig /all` to inspect the network adapter configuration, IP address, default gateway and DNS settings.
-   
-  ![IP Configuration](evidence/TKT-001-ip-config.png)
+ Used Windows command-line tools to inspect network configuration, practise DHCP lease renewal, clear the DNS resolver cache and test connectivity.  
+ 
+![IP Configuration](evidence/TKT-001-ip-config.png)
 
 <br><br>
-
-2. **DHCP Lease Renewal and DNS Cache**
-   Used `ipconfig /release`, `ipconfig /renew`  to obtain a fresh DHCP lease, and wipe the local DNS cache, followed by `ipconfig /flushdns` to clear the local DNS resolver cache.
 
 ![IP Lease Renewal and DNS Cache](evidence/TKT-001-ipconfig-renew.png)
 
 <br><br>
-
-3. **Network Connectivity Testing**
-   Used ping to test connectivity to the default gateway and an external IP address.
 
 ![Network Connectivity](evidence/TKT-001-connectivity-ping-test.png)
 
@@ -37,23 +30,20 @@
 
 ## TKT-002: Active Directory Administration
 
-Investigation Steps
 
-1. **Create a Test Domain User**
-Opened Active Directory Users and Computers and created a test domain user in the appropriate organisational unit (OU).
+Created a test domain user and configured its security group membership in Active Directory.
 
 ![Test User Creation](/evidence/TKT-002-user-creation.png)
 
-
-2. **Assign Security Group Membership**
-Added the test user to the appropriate security group and checked the group membership.
-
 ![Security Group Membership](/evidence/TKT-002-group-membership.png)
 
-3. **Verify Account Properties**
-Reviewed the account properties to confirm the user account and group membership were configured as intended.
 
-![Account Verification](/evidence/TKT-002-account-verification.png)
+## TKT-003: File and Folder Permissions
+
+
+Configured NTFS permissions to grant an Active Directory security group appropriate access to a folder.
+
+
 
 
 
