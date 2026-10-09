@@ -48,6 +48,13 @@ Configured NTFS permissions to grant an Active Directory security group appropri
 ![Folder Access Test](/evidence/TKT-003-access-test.png)
 
 
+## TKT-004: Account Troubleshooting
+
+Practised investigating a simulated domain sign-in issue by disabling and re-enabling a test user account in Active Directory.
+
+![Troubleshoot](/evidence/TKT-004-disabled-account.png)
+
+![Account Restored](/evidence/TKT-004-disabled-account.png)
 
 
 
