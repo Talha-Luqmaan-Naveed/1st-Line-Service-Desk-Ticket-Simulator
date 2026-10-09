@@ -26,9 +26,8 @@
 
 3. **Refresh IP lease & Clear Resolver Cache**
    Apply client-side remediation commands using `ipconfig /release`, `ipconfig /renew`, `ipconfig /flushdns` to force the network adapter to drop invalid configuration data, obtain a fresh DHCP lease, and wipe the local DNS cache.
-<p align="center">
-   <img src="https://snipboard.io/K7lpEG.jpg" height="70%" width="70%" /><br>
-</p>  
+
+![IP Lease Renewal and DNS Cache](evidence/TKT-001-ipconfig-renew.png)
 
 <br><br>
 
