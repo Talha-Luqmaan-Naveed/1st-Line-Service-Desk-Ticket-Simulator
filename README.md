@@ -54,7 +54,7 @@ Practised investigating a simulated domain sign-in issue by disabling and re-ena
 
 ![Troubleshoot](/evidence/TKT-004-disabled-account.png)
 
-![Account Restored](/evidence/TKT-004-disabled-account.png)
+![Account Restored](/evidence/TKT-004-account-restored.png)
 
 
 
