@@ -3,7 +3,7 @@
 
 | Ticket ID      | Category                  | Scenario/Task | Outcome | Tools & Skills |
 | :--- | :--- | :--- | :--- | :--- |
-| **TKT-001**     | Network Diagnostics  | Practise investigating network configuration and connectivity.  | Inspected IP configuration and practised network connectivity and DNS checks.   | Command Prompt basics - IP configuration, DNS, ping |
+| **TKT-001**     | Network Diagnostics  | Practise investigating network configuration and connectivity.  | Inspected IP configuration and practised network connectivity and DNS checks.   | Command Prompt, IP configuration, DNS, ping |
 | **TKT-002**     | Active Directory Administration| Create a test domain user and assign appropriate group membership. | Created a test user, assigned group membership and verified account properties. | Active Directory, user accounts, security groups |
 | **TKT-003**     | File and Folder Permissions | Configure access to a shared folder for an Active Directory security group. | Configured and checked NTFS permissions for the security group. |  Windows Server, NTFS permissions, shared folders |
 | **TKT-004**     | Account Troubleshooting | Practise investigating a domain account sign-in problem. | Inspected account status and relevant account settings. | Active Directory, account troubleshooting |
@@ -14,31 +14,40 @@
 <br><br>
 ## TKT-001: Network Diagnostics
 
-### Investigation and Troubleshooting
-
-1. **Physical Link Check**
-   Verify Ethernet cable is securely plugged in PC and the router. Confirm green/amber link lights illuminate on the network adapter.
-<br><br>
-
-2. **Initial Network Audit**
-   Execute `ipconfig /all` to evaluate the current network configuration.
+1. **Initial Initial Network Configuration Check**
+   Used `ipconfig /all` to inspect the network adapter configuration, IP address, default gateway and DNS settings.
    
   ![IP Configuration](evidence/TKT-001-ip-config.png)
 
 <br><br>
 
-3. **Refresh IP lease & Clear Resolver Cache**
-   Apply client-side remediation commands using `ipconfig /release`, `ipconfig /renew`, `ipconfig /flushdns` to force the network adapter to drop invalid configuration data, obtain a fresh DHCP lease, and wipe the local DNS cache.
+2. **DHCP Lease Renewal and DNS Cache**
+   Used `ipconfig /release`, `ipconfig /renew`  to obtain a fresh DHCP lease, and wipe the local DNS cache, followed by `ipconfig /flushdns` to clear the local DNS resolver cache.
 
 ![IP Lease Renewal and DNS Cache](evidence/TKT-001-ipconfig-renew.png)
 
 <br><br>
 
-4. **Network Reachability & Verification**
-   Executed ping tests using ping <gateway IP> and ping 1.1.1.1 (external IP address) to verify connectivity to the local gateway and an external network destination
+3. **Network Connectivity Testing**
+   Used ping to test connectivity to the default gateway and an external IP address.
 
 ![IP Lease Renewal and DNS Cache](evidence/TKT-001-connectivity-ping-test.png)
 
 <br><br>
 
+## TKT-002: Active Directory Administration
 
+Investigation Steps
+
+1. **Create a Test Domain User**
+Opened Active Directory Users and Computers and created a test domain user in the appropriate organisational unit (OU).
+
+
+
+2. **Assign Security Group Membership**
+Added the test user to the appropriate security group and checked the group membership.
+
+
+
+3. **Verify Account Properties**
+Reviewed the account properties to confirm the user account and group membership were configured as intended.
