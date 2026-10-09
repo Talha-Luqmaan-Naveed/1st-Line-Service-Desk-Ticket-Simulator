@@ -32,7 +32,7 @@
 <br><br>
 
 4. **Network Reachability & Verification**
-   Execute ping tests using `ping (Gateway IP)` and `ping (Internet)` to confirm active configuration to both the local gateway and external public internal resources.
+   Executed ping tests using ping <gateway IP> and ping 1.1.1.1 (external IP address) to verify connectivity to the local gateway and an external network destination
 
 ![IP Lease Renewal and DNS Cache](evidence/TKT-001-connectivity-ping-test.png)
 
