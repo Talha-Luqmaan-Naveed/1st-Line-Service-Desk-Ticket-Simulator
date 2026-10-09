@@ -19,9 +19,8 @@
 
 2. **Initial Network Audit**
    Execute `ipconfig /all` to evaluate the current network configuration.
-<p align="center">
-   <img src="https://snipboard.io/8WvAJM.jpg" height="70%" width="70%" /><br>
-</p>  
+   
+  ![IP Configuration](evidence/TKT-001-ip-config.png)
 
 <br><br>
 
