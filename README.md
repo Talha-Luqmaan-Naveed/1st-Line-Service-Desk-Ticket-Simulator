@@ -14,15 +14,11 @@
 <br><br>
 ## TKT-001: Network Diagnostics
 
- Used Windows command-line tools to inspect network configuration, practise DHCP lease renewal, clear the DNS resolver cache and test connectivity.  
+Used Windows command-line tools to inspect network configuration, practise DHCP lease renewal, clear the DNS resolver cache and test connectivity.  
  
 ![IP Configuration](evidence/TKT-001-ip-config.png)
 
-<br><br>
-
 ![IP Lease Renewal and DNS Cache](evidence/TKT-001-ipconfig-renew.png)
-
-<br><br>
 
 ![Network Connectivity](evidence/TKT-001-connectivity-ping-test.png)
 
@@ -30,16 +26,15 @@
 
 ## TKT-002: Active Directory Administration
 
-
 Created a test domain user and configured its security group membership in Active Directory.
 
 ![Test User Creation](/evidence/TKT-002-user-creation.png)
 
 ![Security Group Membership](/evidence/TKT-002-group-membership.png)
 
+<br><br>
 
 ## TKT-003: File and Folder Permissions
-
 
 Configured NTFS permissions to grant an Active Directory security group appropriate access to a folder.
 
@@ -47,14 +42,38 @@ Configured NTFS permissions to grant an Active Directory security group appropri
 
 ![Folder Access Test](/evidence/TKT-003-access-test.png)
 
+<br><br>
 
 ## TKT-004: Account Troubleshooting
 
-Practised investigating a simulated domain sign-in issue by disabling and re-enabling a test user account in Active Directory.
+Investigated simulated domain sign-in issue by disabling and re-enabling a test user account in Active Directory.
 
 ![Troubleshoot](/evidence/TKT-004-disabled-account.png)
 
 ![Account Restored](/evidence/TKT-004-account-restored.png)
 
+<br><br>
 
+## TKT-005 Group Policy Management
 
+Inspected domain Group Policy settings and reviewing password policy configuration in a Windows Server lab
+
+![Password Policy Settings](/evidence/TKT-005-password-policy.png)
+
+<br><br>
+
+## TKT-006: Windows Troubleshooting
+
+Simulated a Windows performance investigation by opening multiple browser tabs and monitoring CPU and memory utilisation in Task Manager.
+
+![Task Manager Processes](/evidence/TKT-006-task-manager.png)
+
+![System Performance](/evidence/TKT-006-performance.png)
+
+<br><br>
+
+## TKT-007: Event Log Investigation
+
+Investigated a critical Windows system event relating to an unexpected shutdown and considered the possible cause in a VirtualBox lab environment.
+
+![Windows Event Investigation](/evidence/TKT-007-event-investigation.png)
